@@ -270,9 +270,9 @@ export default function HomePage() {
         </div>
 
         <p className="text-muted-foreground max-w-sm mb-6 leading-relaxed text-sm">
-          Welcome to your <span className="gold-text font-medium">Ramadan Interactive Digital Planner</span> by
-          Barrkeh DigiProducts. This sacred space is designed to help you live intentionally and create a life filled
-          with barakah.
+          Welcome to your <span className="gold-text font-medium">Welcome to your Ramadan Interactive Digital Planner</span> by
+          Barrkeh DigiProducts. This sacred space is lovingly crafted to inspire you to live intentionally and cultivate a life filled
+          with barakah, joy, and purpose. May this journey bring you closer to your goals and enhance your spiritual experience during this blessed month.
         </p>
 
         {showNameInput && (
