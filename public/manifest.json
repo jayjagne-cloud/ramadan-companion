@@ -1,0 +1,23 @@
+{
+  "name": "Barrkeh Ramadan Companion",
+  "short_name": "Ramadan Companion",
+  "description": "Premium Ramadan Interactive Digital Planner by Barrkeh DigiProducts",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#d4af37",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/33df7b37-1a2e-432a-8029.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/images/33df7b37-1a2e-432a-8029.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["lifestyle", "productivity", "education"]
+}
