@@ -119,11 +119,66 @@
   }
 }
 
-/* Arabic text styling */
+/* Arabic text styling - optimized for Quran reading */
 .arabic-text {
   font-family: var(--font-arabic);
   direction: rtl;
-  line-height: 1.8;
+  line-height: 2;
+}
+
+/* Quran Arabic text - enhanced readability for beginners */
+.quran-text {
+  font-family: "Scheherazade New", "Amiri", "KFGQPC Uthmanic Script HAFS", serif;
+  direction: rtl;
+  line-height: 2.4;
+  letter-spacing: 0.02em;
+  word-spacing: 0.15em;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* Tajweed color classes - consistent and accessible */
+.tajweed-ghunnah {
+  color: #22c55e;
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.3);
+}
+
+.tajweed-ikhfa {
+  color: #3b82f6;
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+}
+
+.tajweed-idgham {
+  color: #f97316;
+  text-shadow: 0 0 8px rgba(249, 115, 22, 0.3);
+}
+
+.tajweed-iqlab {
+  color: #a855f7;
+  text-shadow: 0 0 8px rgba(168, 85, 247, 0.3);
+}
+
+.tajweed-qalqalah {
+  color: #ef4444;
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.3);
+}
+
+.tajweed-madd {
+  color: #eab308;
+  text-shadow: 0 0 8px rgba(234, 179, 8, 0.3);
+}
+
+/* Verse highlight animation */
+.verse-highlight {
+  animation: verseGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes verseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(201, 162, 39, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(201, 162, 39, 0.4);
+  }
 }
 
 /* Smooth page transitions */
